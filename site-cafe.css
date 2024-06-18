@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Kurenaido&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 16px;
+    scroll-behavior: smooth;
+}
+body {
+    font-family: 'Zen Kurenaido', sans-serif;
+    color: white;
+    font-weight: 600;
+    font-size: 30px;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(180deg, rgba(134, 248, 243, 1) 0%, rgba(119, 255, 220, 1) 64%, rgba(252, 255, 133, 1) 100%);
+}
+
+.title{
+    text-align: center;
+    margin: 30px;
+}
+.main{
+    text-align: center;
+}
+img{
+    max-width: 90%;
+}
+
+p{
+    padding: 20px 50px;
+}
+
+.syosai p{
+    font-size: 35px;
+}
+.photo,video{
+    width: 70%;
+    padding: 20px;
+}
+
+.bikou{
+    font-size: 20px;
+}
+.det{
+    text-align: center;
+    padding-top: 100px;
+}
+
+.button{
+    text-align: center;
+}
+
+button{
+    font-size: 40px;
+    margin: 100px;
+    padding: 20px 100px;
+    font-family: 'Zen Kurenaido', sans-serif;
+    background-color: rgba(0, 255, 255, 0.68);
+    border-color: aliceblue;
+    color: white;
+}

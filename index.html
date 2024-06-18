@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="site-kadai.css">
+</head>
+
+<body>
+    <div class="content_body">
+        <header>
+            <div class="header_container">
+                <div class="menu_container">
+                    <img class="menu_open" src="iruka2.png">
+                    <img class="menu_close" src="iruka2.png">
+                </div>
+            </div>
+        </header>
+        <nav class="sample_sp_menu">
+            <ul>
+                <li><a href="#about">ABOUT</a></li>
+                <li><a href="#skill">SKILL</a></li>
+                <li><a href="#work">WORK</a></li>
+                <li><a href="#contact">CONTACT</a></li>
+            </ul>
+        </nav>
+        <section>
+            <div class="hero">
+                <img src="iruka2.png" class="icon" alt="icon">
+                <h2>-Welcome-</h2>
+                <h1>Kobayashi Ami</h1>
+                <p>portpholio</p>
+            </div>
+            <section></section>
+            <script>
+                const MenuContainer = document.querySelector('.menu_container');
+                const MenuOpen = document.querySelector('.menu_open');
+                const MenuClose = document.querySelector('.menu_close');
+
+                const SPMenu = document.querySelector('.sample_sp_menu');
+                MenuContainer.addEventListener('click', () => {
+                    MenuOpen.classList.toggle('active');
+                    MenuClose.classList.toggle('active');
+                    SPMenu.classList.toggle('active');
+                });
+
+            </script>
+    </div>
+    <div class="about" id="about">
+        <div class="box">
+            <h2 class="subhead">Profile</h2>
+            <img src="" alt="">
+            <p>小林 亜未(こばやし あみ)<br>
+                2003年8月27日生まれ<br>
+                愛知工業大学 情報科学部 情報科学科 メディア情報専攻<br>
+            </p>
+        </div>
+    </div>
+    <div class="skill" id="skill">
+        <div class="box">
+            <h2 class="subhead">Skill</h2>
+            <div class="detail">
+                <div class="dis">
+                    <img src="cpp.png" alt="cpp">
+                    <p>C++(C言語)</p>
+                </div>
+                <div class="dis">
+                    <img src="python.png" alt="cpp">
+                    <p>Python</p>
+                </div>
+                <div class="dis">
+                    <img src="HTML.avif" alt="cpp">
+                    <p>HTML</p>
+                </div>
+            </div>
+            <div class="detail">
+                <div class="dis">
+                    <img src="php.avif" alt="cpp">
+                    <p>PHP</p>
+                </div>
+                <div class="dis">
+                    <img src="CSS.avif" alt="cpp">
+                    <p>CSS</p>
+                </div>
+                <div class="dis">
+                    <img src="csharp_original_logo_icon_146578.png" alt="cpp">
+                    <p>C#</p>
+                </div>
+            </div>
+            <div class="detail">
+                <div class="dis">
+                    <img src="file_type_ai_icon_130757.png" alt="cpp">
+                    <p>Illustrator</p>
+                </div>
+                <div class="dis">
+                    <img src="photoshop.png" alt="cpp">
+                    <p>Photoshop</p>
+                </div>
+                <div class="dis">
+                    <img src="file_type_maya_icon_130395.png" alt="cpp">
+                    <p>Maya</p>
+                </div>
+            </div>
+        </div>
+        </div>
+    <div class="work" id="work">
+        <div class="box">
+            <h2 class="subhead">Work</h2>
+            <div class="detail">
+                <div class="dis">
+                    <img src="cafe.png" alt="cafe">
+                    <a href="site-cafe.html">
+                        <div class="mask">
+                            <div class="caption">カフェのWEBサイト
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="dis">
+                    <img src="radio.png" alt="bingo">
+                    <a href="site-radio.html">
+                        <div class="mask">
+                            <div class="caption">ラジオ体操採点アプリ
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="dis">
+                    <img src="chair.png" alt="chair">
+                    <a href="site-chair.html">
+                        <div class="mask">
+                            <div class="caption">椅子のモデリング
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="detail">
+                <div class="dis">
+                    <img src="nagoya.png" alt="name">
+                    <a href="site-nagoya.html">
+                        <div class="mask">
+                            <div class="caption">音声認識での案内アプリ
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="dis">
+                    <img src="conpe.png" alt="conpe">
+                    <a href="site-conpe.html">
+                        <div class="mask">
+                            <div class="caption">ロゴ作成
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="dis">
+                    <img src="usagi.png" alt="rabbit">
+                    <a href="site-rabbit.html">
+                        <div class="mask">
+                            <div class="caption">うさぎのポスター
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="detail">
+                <div class="dis">
+                    <img src="iruka.png" alt="iruka">
+                    <a href="site-iruka.html">
+                        <div class="mask">
+                            <div class="caption">イルカのアニメーション
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="dis">
+                    <img src="keizi.png" alt="ice">
+                    <a href="site-keizi.html">
+                        <div class="mask">
+                            <div class="caption">掲示板のサイト
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="dis">
+                    <img src="bottle.png" alt="other">
+                    <a href="other.html">
+                        <div class="mask">
+                            <div class="caption">チーム制作実績
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+            <div class="contact" id="contact">
+                <h3 class="subhead">CONTACT</h3>
+                <p>email x22038xx@aitech.ac.jp</p>
+            </div>
+</body>
+
+</html>
